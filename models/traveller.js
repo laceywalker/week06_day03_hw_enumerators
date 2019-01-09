@@ -31,15 +31,17 @@ Traveller.prototype.calculateTotalDistanceTravelled = function () {
   }, 0);
 };
 
-// Cinema.prototype.totalRunningTime = function () {
-//   return this.films.reduce((total, film) => {
-//     return total += film.length;
-//   }, 0);
+// Traveller.prototype.getUniqueModesOfTransport = function () {
+//   const typesOfJourneys = this.journeys.filter((journey, index, array) => {
+//     const foundJourney = array.find(route => route.transport === journey.transport)
+//     console.log(foundJourney)
+//     if (!foundJourney) {
+//       return journey;
+//   };
+// });
+//   return typesOfJourneys;
 // };
 
-// Traveller.prototype.getUniqueModesOfTransport = function () {
-//
-// };
 
 
 module.exports = Traveller;
