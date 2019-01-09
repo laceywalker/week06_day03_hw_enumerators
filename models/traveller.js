@@ -9,19 +9,16 @@ Traveller.prototype.getJourneyStartLocations = function () {
   return startingLocations;
 };
 
+Traveller.prototype.getJourneyEndLocations = function () {
+  const endingLocations = this.journeys.map((journey) => {
+    return journey.endLocation;
+  });
+  return endingLocations;
+};
 
-// Cinema.prototype.listOfFilmTitles = function (films) {
-//   const filmTitles = films.map((film) => {
-//     return film.title;
-//   });
-//   return filmTitles;
-// };
 
 
-// Traveller.prototype.getJourneyEndLocations = function () {
-//
-// };
-//
+
 // Traveller.prototype.getJourneysByTransport = function (transport) {
 //
 // };
